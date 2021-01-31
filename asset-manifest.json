@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rraiford-react-portfolio/static/css/main.62085bed.chunk.css",
-    "main.js": "/rraiford-react-portfolio/static/js/main.7e7f4b69.chunk.js",
-    "main.js.map": "/rraiford-react-portfolio/static/js/main.7e7f4b69.chunk.js.map",
+    "main.js": "/rraiford-react-portfolio/static/js/main.42e4d729.chunk.js",
+    "main.js.map": "/rraiford-react-portfolio/static/js/main.42e4d729.chunk.js.map",
     "runtime-main.js": "/rraiford-react-portfolio/static/js/runtime-main.6a37a938.js",
     "runtime-main.js.map": "/rraiford-react-portfolio/static/js/runtime-main.6a37a938.js.map",
     "static/js/2.c9e3dd1d.chunk.js": "/rraiford-react-portfolio/static/js/2.c9e3dd1d.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.6a37a938.js",
     "static/js/2.c9e3dd1d.chunk.js",
     "static/css/main.62085bed.chunk.css",
-    "static/js/main.7e7f4b69.chunk.js"
+    "static/js/main.42e4d729.chunk.js"
   ]
 }
