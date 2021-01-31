@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/rraiford-react-portfolio/static/css/main.62085bed.chunk.css",
+    "main.js": "/rraiford-react-portfolio/static/js/main.7e7f4b69.chunk.js",
+    "main.js.map": "/rraiford-react-portfolio/static/js/main.7e7f4b69.chunk.js.map",
+    "runtime-main.js": "/rraiford-react-portfolio/static/js/runtime-main.6a37a938.js",
+    "runtime-main.js.map": "/rraiford-react-portfolio/static/js/runtime-main.6a37a938.js.map",
+    "static/js/2.c9e3dd1d.chunk.js": "/rraiford-react-portfolio/static/js/2.c9e3dd1d.chunk.js",
+    "static/js/2.c9e3dd1d.chunk.js.map": "/rraiford-react-portfolio/static/js/2.c9e3dd1d.chunk.js.map",
+    "index.html": "/rraiford-react-portfolio/index.html",
+    "static/css/main.62085bed.chunk.css.map": "/rraiford-react-portfolio/static/css/main.62085bed.chunk.css.map",
+    "static/js/2.c9e3dd1d.chunk.js.LICENSE.txt": "/rraiford-react-portfolio/static/js/2.c9e3dd1d.chunk.js.LICENSE.txt",
+    "static/media/barkmatch.759ef9ec.gif": "/rraiford-react-portfolio/static/media/barkmatch.759ef9ec.gif",
+    "static/media/barkmatch.e3e81f0d.png": "/rraiford-react-portfolio/static/media/barkmatch.e3e81f0d.png",
+    "static/media/comic-book-finder.87d75527.png": "/rraiford-react-portfolio/static/media/comic-book-finder.87d75527.png",
+    "static/media/comicbook.d37e9b5a.gif": "/rraiford-react-portfolio/static/media/comicbook.d37e9b5a.gif",
+    "static/media/eat-da-burger.35d79770.gif": "/rraiford-react-portfolio/static/media/eat-da-burger.35d79770.gif",
+    "static/media/eat-da-burger.66a595e0.PNG": "/rraiford-react-portfolio/static/media/eat-da-burger.66a595e0.PNG",
+    "static/media/headshot.2c3b98d6.jpg": "/rraiford-react-portfolio/static/media/headshot.2c3b98d6.jpg",
+    "static/media/spinning-sphere.a03d44cb.gif": "/rraiford-react-portfolio/static/media/spinning-sphere.a03d44cb.gif",
+    "static/media/timed-quiz.299092ba.png": "/rraiford-react-portfolio/static/media/timed-quiz.299092ba.png",
+    "static/media/timed-quiz.e8fcf585.gif": "/rraiford-react-portfolio/static/media/timed-quiz.e8fcf585.gif",
+    "static/media/weather-dashboard.70d7efb0.gif": "/rraiford-react-portfolio/static/media/weather-dashboard.70d7efb0.gif",
+    "static/media/weather-dashboard.79aa34dc.png": "/rraiford-react-portfolio/static/media/weather-dashboard.79aa34dc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a37a938.js",
+    "static/js/2.c9e3dd1d.chunk.js",
+    "static/css/main.62085bed.chunk.css",
+    "static/js/main.7e7f4b69.chunk.js"
+  ]
+}
