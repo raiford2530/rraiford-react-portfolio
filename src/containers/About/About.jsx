@@ -7,7 +7,7 @@ function About() {
   return (
     <ContentContainer>
       <Header title="About" />
-    <div className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center headshot-container">
         <img id="headshot" src={Headshot} alt="Photo of Rashawn"/>
     </div>
      

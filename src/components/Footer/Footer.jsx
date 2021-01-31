@@ -2,10 +2,9 @@ import './footer.css';
 
 function Footer(){
     return (
-        <div className="footer d-flex align-items-center justify-content-center">
-            <span>Copyright &copy; 2021 Rashawn Raiford</span>
-            
-        </div>
+        <footer className="footer mt-auto py-3">
+            <span>Copyright &copy; 2021 Rashawn Raiford</span>          
+        </footer>
     )
 }
 

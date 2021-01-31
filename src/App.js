@@ -11,7 +11,7 @@ import './app.css';
 function App() {
   return (
     <Router basename="/">
-    <div className="root-container">
+    <div className="root-container d-flex flex-column h-100">
       <Navbar/>   
       <Switch>
       <Route exact path="/">
