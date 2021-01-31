@@ -10,7 +10,7 @@ import './app.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
     <div className="root-container">
       <Navbar/>   
       <Switch>
