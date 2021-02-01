@@ -7,3 +7,14 @@
 .headshot-container{
     margin-bottom: 30px;
 }
+
+.resume-btn{
+    color: white;
+    border: 1px solid white;
+    width: 25%;
+}
+
+.resume-btn:hover{
+    color: white;
+    background: #3f3f3f;
+}

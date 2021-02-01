@@ -2,6 +2,7 @@ import ContentContainer from '../ContentContainer/ContentContainer';
 import Header from "../../components/Header/Header";
 import Headshot from '../../assets/images/headshot.jpg';
 import './about.css';
+import Resume from './rraiford_resume.pdf';
 
 function About() {
   return (
@@ -31,6 +32,9 @@ function About() {
         a software developer for five years now and have done both frontend and
         backend work on multiple projects.
       </p>
+      <div className="row justify-content-center my-5">
+        <a href={Resume} className="btn resume-btn" download>Download Resume</a>
+      </div>
     </ContentContainer>
   );
 }

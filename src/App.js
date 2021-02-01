@@ -14,21 +14,21 @@ function App() {
     <div className="root-container d-flex flex-column h-100">
       <Navbar/>   
       <Switch>
-      <Route exact path="/">
-        <Home/>
-      </Route>
-      <Route exact path="/about">
-        <About/>
-      </Route>
-      <Route exact path="/portfolio">
-        <Portfolio/>
-      </Route> 
-      <Route exact path="/contact">
-        <Contact/>
-      </Route> 
-      <Route  path="/projects/:name">
-        <ProjectDetails/>
-      </Route>    
+          <Route exact path="/">
+            <Home/>
+          </Route>
+          <Route exact path="/about">
+            <About/>
+          </Route>
+          <Route exact path="/portfolio">
+            <Portfolio/>
+          </Route> 
+          <Route exact path="/contact">
+            <Contact/>
+          </Route> 
+          <Route  path="/projects/:name">
+            <ProjectDetails/>
+          </Route>    
       </Switch>     
       <Footer/>
     </div>
