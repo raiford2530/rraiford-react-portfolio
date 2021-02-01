@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/rraiford-react-portfolio/static/css/main.ed522d0d.chunk.css",
-    "main.js": "/rraiford-react-portfolio/static/js/main.1b84db99.chunk.js",
-    "main.js.map": "/rraiford-react-portfolio/static/js/main.1b84db99.chunk.js.map",
+    "main.css": "/rraiford-react-portfolio/static/css/main.2da8398d.chunk.css",
+    "main.js": "/rraiford-react-portfolio/static/js/main.2f25e4ef.chunk.js",
+    "main.js.map": "/rraiford-react-portfolio/static/js/main.2f25e4ef.chunk.js.map",
     "runtime-main.js": "/rraiford-react-portfolio/static/js/runtime-main.6a37a938.js",
     "runtime-main.js.map": "/rraiford-react-portfolio/static/js/runtime-main.6a37a938.js.map",
     "static/css/2.61e9f1e2.chunk.css": "/rraiford-react-portfolio/static/css/2.61e9f1e2.chunk.css",
-    "static/js/2.d4c9992c.chunk.js": "/rraiford-react-portfolio/static/js/2.d4c9992c.chunk.js",
-    "static/js/2.d4c9992c.chunk.js.map": "/rraiford-react-portfolio/static/js/2.d4c9992c.chunk.js.map",
+    "static/js/2.f2e33153.chunk.js": "/rraiford-react-portfolio/static/js/2.f2e33153.chunk.js",
+    "static/js/2.f2e33153.chunk.js.map": "/rraiford-react-portfolio/static/js/2.f2e33153.chunk.js.map",
     "index.html": "/rraiford-react-portfolio/index.html",
     "static/css/2.61e9f1e2.chunk.css.map": "/rraiford-react-portfolio/static/css/2.61e9f1e2.chunk.css.map",
-    "static/css/main.ed522d0d.chunk.css.map": "/rraiford-react-portfolio/static/css/main.ed522d0d.chunk.css.map",
-    "static/js/2.d4c9992c.chunk.js.LICENSE.txt": "/rraiford-react-portfolio/static/js/2.d4c9992c.chunk.js.LICENSE.txt",
+    "static/css/main.2da8398d.chunk.css.map": "/rraiford-react-portfolio/static/css/main.2da8398d.chunk.css.map",
+    "static/js/2.f2e33153.chunk.js.LICENSE.txt": "/rraiford-react-portfolio/static/js/2.f2e33153.chunk.js.LICENSE.txt",
     "static/media/barkmatch.759ef9ec.gif": "/rraiford-react-portfolio/static/media/barkmatch.759ef9ec.gif",
     "static/media/barkmatch.e3e81f0d.png": "/rraiford-react-portfolio/static/media/barkmatch.e3e81f0d.png",
     "static/media/comic-book-finder.87d75527.png": "/rraiford-react-portfolio/static/media/comic-book-finder.87d75527.png",
@@ -20,6 +20,7 @@
     "static/media/eat-da-burger.66a595e0.PNG": "/rraiford-react-portfolio/static/media/eat-da-burger.66a595e0.PNG",
     "static/media/font-awesome.min.css": "/rraiford-react-portfolio/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/headshot.2c3b98d6.jpg": "/rraiford-react-portfolio/static/media/headshot.2c3b98d6.jpg",
+    "static/media/rraiford_resume.76f3da33.pdf": "/rraiford-react-portfolio/static/media/rraiford_resume.76f3da33.pdf",
     "static/media/spinning-sphere.a03d44cb.gif": "/rraiford-react-portfolio/static/media/spinning-sphere.a03d44cb.gif",
     "static/media/timed-quiz.299092ba.png": "/rraiford-react-portfolio/static/media/timed-quiz.299092ba.png",
     "static/media/timed-quiz.e8fcf585.gif": "/rraiford-react-portfolio/static/media/timed-quiz.e8fcf585.gif",
@@ -29,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.6a37a938.js",
     "static/css/2.61e9f1e2.chunk.css",
-    "static/js/2.d4c9992c.chunk.js",
-    "static/css/main.ed522d0d.chunk.css",
-    "static/js/main.1b84db99.chunk.js"
+    "static/js/2.f2e33153.chunk.js",
+    "static/css/main.2da8398d.chunk.css",
+    "static/js/main.2f25e4ef.chunk.js"
   ]
 }
