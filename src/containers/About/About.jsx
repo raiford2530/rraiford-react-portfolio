@@ -8,7 +8,7 @@ function About() {
     <ContentContainer>
       <Header title="About" />
     <div className="d-flex justify-content-center headshot-container">
-        <img id="headshot" src={Headshot} alt="Photo of Rashawn"/>
+        <img id="headshot" src={Headshot} alt="Rashawn Headshot"/>
     </div>
      
       <p>

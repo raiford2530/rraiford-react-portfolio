@@ -8,7 +8,8 @@ function Project(props) {
             title: props.title,
             description: props.description,
             image: props.image,
-            details: props.details
+            details: props.details,
+            url: props.url
         }
     }
 
