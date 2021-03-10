@@ -6,6 +6,7 @@ import emailjs from 'emailjs-com';
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {useState} from 'react';
+import apiKeys from './APIKeys';
 
 function Contact(){
 
@@ -24,15 +25,7 @@ function Contact(){
 
     const onSubmit = (e) => {
         e.preventDefault();
-        /*
-        User ID
-user_9GBgtM8NEXmZvD3BloSBJ
-Access Token
-886c43f65c4e2b9a9dfbba2f23f7b7c9
-        */
-        const userid = 'user_9GBgtM8NEXmZvD3BloSBJ';
-        const token = '886c43f65c4e2b9a9dfbba2f23f7b7c9'
-        emailjs.sendForm('portfolio-email', 'portfolio', e.target, userid)
+        emailjs.sendForm(apiKeys.serviceId, 'portfolio', e.target, apiKeys.userId)
             .then(result => {
                 toast("Message sent!");   
             })
