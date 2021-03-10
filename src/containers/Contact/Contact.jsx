@@ -85,7 +85,7 @@ function Contact(){
                 </div>
             </div> 
             <div className="row d-flex justify-content-center">
-                <form onSubmit = {onSubmit} className="w-50">
+                <form onSubmit = {onSubmit} id="contact-form">
                     <div class="mb-3">
                         <label for="name" className="form-label">Name:</label>
                         <input name='name' type='text' placeholder='Name' id="name" className="form-control" onChange={onChange} value={formState.name}/>
