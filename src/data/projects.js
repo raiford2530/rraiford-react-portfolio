@@ -8,6 +8,8 @@ import TimedQuizThumbnail from '../assets/images/timed-quiz.gif';
 import TimedQuizImage from '../assets/images/timed-quiz.png';
 import WeatherThumbnail from '../assets/images/weather-dashboard.gif';
 import WeatherImage from '../assets/images/weather-dashboard.png';
+import FarmToTableImage from '../assets/images/f2table.png';
+import FarmToTableThumbnail from '../assets/images/f2table.gif';
 
 const projects = [
     {
@@ -18,7 +20,7 @@ const projects = [
         description: "A single page website created to find random characters and comic books that the characters made appearances in.",
         url: 'https://raiford2530.github.io/ComicBook-Finder/',
         repo: 'https://github.com/raiford2530/ComicBook-Finder',
-        technologies: ['Git', 'HTML 5', 'jQuery', 'CSS', 'Bootstrap', 'Javascript']
+        technologies: ['Git', 'HTML5', 'jQuery', 'CSS', 'Bootstrap', 'Javascript']
       },
       {
           title: "Bark Match",
@@ -28,7 +30,7 @@ const projects = [
           description: "BarkMatch is a website that allows users to browse dogs and sign up to walk a dog from a list of dogs uploaded by a dog shelter",
           url: 'https://vast-river-69240.herokuapp.com/',
           repo: 'https://github.com/raiford2530/BarkMatch-project2',
-          technologies: ['Git', 'Node.js', 'jQuery', 'CSS', 'Bulma', 'Express', 'Express Handlebars', 'MySQL', 'Sequelize', 'NodeMailer', 'Passport']
+          technologies: ['Git', 'Node.js', 'jQuery', 'CSS3', 'Bulma', 'Express', 'Express Handlebars', 'MySQL', 'Sequelize', 'NodeMailer', 'Passport']
         },
         {
           title: "Eat-Da-Burger",
@@ -38,7 +40,7 @@ const projects = [
           description: "Eat-Da-Burger is a simple web app for users to enter burgers that they want to eat and then indicate when they have eaten the burgers",
           url: 'https://rraiford-eat-a-burger.herokuapp.com',
           repo: 'https://github.com/raiford2530/burger',
-          technologies: ['Git', 'Node.js', 'jQuery', 'CSS', 'Bootstrap', 'Express', 'Express Handlebars' ,'MySQL']
+          technologies: ['Git', 'Node.js', 'jQuery', 'CSS3', 'Bootstrap', 'Express', 'Express Handlebars' ,'MySQL']
         },
         {
           title: "Weather Dashboard",
@@ -48,7 +50,7 @@ const projects = [
           description: "A website created to find current weather conditions and the five day weather forecast for a given city.",
           url: 'https://raiford2530.github.io/weather-dashboard/',
           repo: 'https://github.com/raiford2530/weather-dashboard',
-          technologies: ['Git', 'HTML 5', 'jQuery', 'CSS', 'Bootstrap', 'Javascript']
+          technologies: ['Git', 'HTML5', 'jQuery', 'CSS3', 'Bootstrap', 'Javascript']
         },
         {
           title: "Timed Quiz",
@@ -58,7 +60,17 @@ const projects = [
           description: "A website created for a user to take a timed quiz over javascript terms.",
           url:'https://raiford2530.github.io/timed-quiz/',
           repo:'https://github.com/raiford2530/timed-quiz',
-          technologies: ['Git', 'HTML 5', 'CSS', 'Bootstrap', 'Javascript']
+          technologies: ['Git', 'HTML5', 'CSS3', 'Bootstrap', 'Javascript']
+        },
+        {
+          title: "Farm To Table",
+          thumbnail: FarmToTableThumbnail,
+          image: FarmToTableImage,
+          details: "Farm To Table was created using a MERN stack. Node.js was used as the backend runtime environemnt. Express was used for the backend routing while React Router Dom was used for the client-side routing. The backend database chosen for the project was MongoDb. The frontend was developed using React.js.",
+          description: "A MERN fullstack application developed for local farmers to sell customized packages of produce online.",
+          url:'https://glacial-falls-13622.herokuapp.com',
+          repo:'https://github.com/raiford2530/farm_to_table',
+          technologies: ['Node.js', 'React.js', 'React-Router-Dom', 'Express', 'JWT', 'NodeMailer', 'MongoDB', 'Mongoose', 'Git', 'CSS3', 'Javascript', 'Heroku']
         }
     ]
 

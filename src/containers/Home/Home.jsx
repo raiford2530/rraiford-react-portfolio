@@ -15,7 +15,7 @@ function Home() {
             <div className="d-flex justify-content-center mt-5">
                 <img className="sphere" src={Sphere} alt="Rotating Sphere"/>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
     </div>
