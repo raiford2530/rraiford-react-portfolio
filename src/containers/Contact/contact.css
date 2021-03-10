@@ -1,3 +1,22 @@
 textarea{
     height: 100px;
 }
+
+.sendBtn{
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    color: #ffff;
+}
+
+.sendBtn:hover{
+    color:#ffffff;
+}
+
+.sendBtn:active{
+    background-color: #ffffffce;
+    color: black;
+}
+
+.invalid{
+    color: red;
+}

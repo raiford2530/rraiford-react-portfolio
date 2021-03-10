@@ -1,4 +1,4 @@
-import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './containers/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import About from './containers/About/About';
@@ -10,7 +10,7 @@ import './assets/css/app.css';
 
 function App() {
   return (
-    <Router basename="/">
+    <Router>
     <div className="root-container d-flex flex-column h-100">
       <Navbar/>   
       <Switch>

@@ -16,6 +16,14 @@ function Contact(){
         message: ''
     });
 
+    const [errorState, setErrorState] = useState({
+        errors: {
+            name: "",
+            email: "",
+            message: ""
+        }
+    })
+
     const onChange = (e) => {
         const name = e.target.name;
         const value = e.target.value;
@@ -23,8 +31,37 @@ function Contact(){
         setFormState({...formState, [name]: value});
     }
 
+    const validate = () => {
+        const errors = {};
+        let isValid = true;
+
+        if(!formState.name){
+            errors["name"] = "Name is required";
+            isValid = false;
+        }
+
+        if(!formState.email){
+            errors["email"] = "Email is required";
+            isValid = false;
+        }
+
+        if(!formState.message){
+            errors["message"] = "Message is required";
+            isValid = false
+        }
+
+        setErrorState(errors);
+
+        return isValid;
+    }
+
     const onSubmit = (e) => {
         e.preventDefault();
+
+        if(!validate()){
+            return;
+        }
+
         emailjs.sendForm(apiKeys.serviceId, 'portfolio', e.target, apiKeys.userId)
             .then(result => {
                 toast("Message sent!");   
@@ -52,19 +89,29 @@ function Contact(){
                     <div class="mb-3">
                         <label for="name" className="form-label">Name:</label>
                         <input name='name' type='text' placeholder='Name' id="name" className="form-control" onChange={onChange} value={formState.name}/>
+                        {
+                            errorState.name ? <div className="invalid">{errorState["name"]}</div> : null
+                        }
+                        
                     </div>
                     <div class="mb-3">
                         <label for="email" className="form-label">Email:</label>
                         <input name='email' type='email' placeholder='email@email.com' id="email" className="form-control" onChange={onChange} value={formState.email}/>
+                        {
+                            errorState.email ? <div className="invalid">{errorState["email"]}</div> : null
+                        }
                     </div>
                     <div class="mb-3">
                         <label for="message" className="form-label">Your Message:</label>
                         <textarea name="message" type="text" placeholder="Your message" id="message" className="form-control" onChange={onChange} value={formState.message}></textarea>
+                        {
+                            errorState.message ? <div className="invalid">{errorState["message"]}</div> : null
+                        }
                     </div>
                     
                     <input name="subject" value="Portfolio Message" type="hidden"/>
                     
-                    <button className="btn btn-light">Send Message</button>
+                    <button className="btn sendBtn">Send Message</button>
                 </form>
             </div>            
         </ContentContainer>
