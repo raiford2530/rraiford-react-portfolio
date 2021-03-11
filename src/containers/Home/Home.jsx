@@ -8,7 +8,7 @@ function Home() {
         <div className="row mx-auto">
           <div className="col-sm-12">
             <h1 className='landing-header'>
-              Hi, I'm Rashawn
+              Hi, I'm Rashawn.
               <br />
               I'm a Full Stack Developer.
             </h1>
